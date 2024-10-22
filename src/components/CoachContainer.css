@@ -185,6 +185,9 @@
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+  .coach-text-parent{
+    font-size: medium;
+  }
 
   .coach-qualities {
     padding-left: var(--padding-xl);
@@ -204,6 +207,11 @@
 
   .divchakra-stack3 {
     margin-top: 20px; 
+  }
+  
+  .coach-text-description {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
   }
 }
 
@@ -214,10 +222,19 @@
     line-height: 32px;
   }
 
+  .coach-container {
+   margin-top: -7rem;
+   margin-left: -1rem;
+     
+  }
   .coach-qualities {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+  }
+  .coach-text-description {
+    font-size: var(--font-size-2xl);
+    line-height: 35px;
   }
 
   .learn-more-about2 {
@@ -233,4 +250,59 @@
   .divchakra-stack3 {
     margin-top: 20px; 
   }
+
+  .coach-qualities-container-parent {
+    /* align-self: stretch; */
+    font-size: var(--font-size-7xl);
+    margin-top: -3rem;
+  }
+ 
+  .expert-knowledge-our-coaches {
+    font-size: var(--font-size-sm);
+  }
+  .expert-knowledge,
+  .expert-knowledge-our-coaches1 {
+    font-size: var(--font-size-sm);
+
+  }
+  
+  .engaging-methodologies,
+  .they-use-innovative{
+    font-family: var(--font-inter);
+    font-size: var(--font-size-sm);
+  }
+  
+  .engaging-methodologies-they-u {
+    margin-bottom: 0;
+    font-size: var(--font-size-sm);
+
+  }
+  
+  .inspirational-mentors,
+  .with-their-enthusiastic {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-sm);
+
+  }
+  
+  .inspirational-mentors-with-th {
+    margin-bottom: 0;
+    font-size: var(--font-size-sm);
+
+  }
+  
+  .empathetic-guides,
+  .they-listen-and {
+    font-family: var(--font-inter);
+    font-size: var(--font-size-sm);
+
+  }
+  
 }
+
+@media screen and (width<=450px){
+.coach-container{
+  padding-left: 0.5rem;
+}
+}
+  

@@ -62,6 +62,7 @@
   font-size: var(--font-size-25xl);
   color: var(--color-white);
   font-family: var(--font-inter);
+  transform: scale(0.8);
 }
 
 @media screen and (width <= 1200px) {
@@ -82,16 +83,28 @@
 @media screen and (width <= 750px) {
   .feature-cards {
     gap: var(--gap-8xl);
+    flex-direction: column;
+    ;
   }
 
   .what-makes-us-different {
     gap: var(--gap-9xl);
   }
+  
 }
 
 @media screen and (width <= 450px) {
   .what-makes-us {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-5xl);
     line-height: 32px;
+    flex-direction: column;
+    margin-top:-9rem;
+    
+  }
+  .feature-cards
+  {
+    gap: var(--gap-8xl);
+    flex-direction: column;
+    margin-top: -6rem;
   }
 }

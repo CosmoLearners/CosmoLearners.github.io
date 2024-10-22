@@ -6,6 +6,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: 4rem;
+    transform: scale(0.8);
 
     /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
       var(--padding-sm-6); */

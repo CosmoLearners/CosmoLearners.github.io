@@ -254,6 +254,7 @@
   align-items: center;
   flex-shrink: 0;
   max-width: 100%;
+
 }
 
 /* .coach-qualities-container, */
@@ -384,6 +385,15 @@
     padding-right: var(--padding-134xl);
     box-sizing: border-box;
   }
+
+  .qualities-of-our-container{
+    margin-right:10rem;
+  }
+  .qualities-of-our {
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+  
 }
 
 @media screen and (width <= 450px) {
@@ -407,4 +417,6 @@
     padding-bottom: var(--padding-33xl);
     box-sizing: border-box;
   }
-}
+
+  }
+

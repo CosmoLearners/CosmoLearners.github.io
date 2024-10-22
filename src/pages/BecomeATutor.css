@@ -462,6 +462,7 @@
 @media screen and (width <= 750px) {
   .learn-more-about-cosmo {
     gap: var(--gap-mid);
+
   }
 
   .our-mission-parent {
@@ -476,7 +477,7 @@
 @media screen and (width <= 450px) {
   .learn-more-about-container,
   .our-mission {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-3xl);
     line-height: 32px;
   }
 
@@ -490,10 +491,15 @@
   }
 
   .learn-more-about {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-5xl);
     line-height: 32px;
   }
-
+  .at-cosmo-we {
+    font-size: var(--font-size-sm);
+    line-height: 28px;
+    justify-content: center;
+  }
+  
   .learn-more-about-cosmo1 {
     padding-top: var(--padding-13xl);
     padding-bottom: var(--padding-13xl);
@@ -502,5 +508,8 @@
 
   .become-a-tutor {
     gap: var(--gap-6xl);
+  }
+  .are-you-ready{
+    font-size: var(--font-size-sm);
   }
 }
