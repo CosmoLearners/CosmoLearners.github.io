@@ -390,12 +390,6 @@
   font-family: var(--font-inter);
 }
 
-.cosmo-1-2 {
-  height: 420px;
-  width: 420px;
-  position: relative;
-  object-fit: cover;
-}
 
 .heading-4 {
   position: relative;
@@ -520,9 +514,11 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-items: center;
   justify-content: center;
   gap: var(--gap-66xl);
   max-width: 100%;
+  overflow: visible;
 }
 
 /* .book-an-appointment {
@@ -799,7 +795,7 @@
   } */
 }
 
-@media screen and (width <= 750px) {
+@media screen and (width <= 280px) {
   .learn-more-about-cosmo4 {
     gap: var(--gap-mid);
   }
@@ -808,6 +804,10 @@
     padding-left: var(--padding-15xl);
     padding-right: var(--padding-15xl);
     box-sizing: border-box;
+    justify-content: center;
+  }
+  .footer-navigation{
+    justify-content:start;
   }
 
   .footer1 {
@@ -892,7 +892,7 @@
 
   .book-an-appointment {
     /* font-size: var(--font-size-lgi); */
-    font-size: 10px;
+    font-size: 6vw;
     line-height: 12px;
   }
 

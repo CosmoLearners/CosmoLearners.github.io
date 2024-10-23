@@ -89,7 +89,7 @@ const NavBar = () => {
         </div>
         <div className="appointment-button-container">
           <button className="link7" onClick={onGoogleFormClick}>
-            <div className="book-an-appointment1">BOOK AN APPOINTMENT</div>
+            <div className="book-an-appointment1">GET FREE SESSION</div>
           </button>
         </div>
       </div>
