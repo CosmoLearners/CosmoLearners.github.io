@@ -48,4 +48,10 @@
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+  .f-a-qs {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-2xl);
+    margin-bottom: -10rem;
+    box-sizing: border-box;
+  }
 }

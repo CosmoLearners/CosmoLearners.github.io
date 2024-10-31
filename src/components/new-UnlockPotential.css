@@ -158,12 +158,13 @@
 
 @media screen and (width <= 450px) {
   .learn-more-about5 {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-3xl);
     line-height: 32px;
   }
 
   .learn-more-about-us-group {
     min-width: 100%;
+    margin-bottom: -5rem;
   }
 
   .unlock-your-potential {
@@ -171,4 +172,51 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
+  .cosmo-jupiter-1-icon {
+    height: 13.5rem;
+    width: 14rem;;
+    transform: scale(0.6);
+    position: relative;
+    object-fit: cover;
+
+  }
+  .cosmo-rocket-1-icon {
+    height: 257px;
+    width: 190px;
+    position: relative;
+    object-fit: contain;
+    margin-left: -2px;
+    transform: scale(0.6);
+    padding-bottom: -5rem;
+    padding-top: -3rem;
+  }  
+  
+  .welcome-to-cosmo2 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 1.5rem;
+  }
+  .button6 {
+    width: 229px;
+    border-radius: var(--br-mid);
+    background-color: var(--color-purple-200);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl-4) var(--padding-smi) var(--padding-7xl-6);
+    box-sizing: border-box;
+    min-width: 120.08px;
+    white-space: nowrap;
+    transform: scale(0.6);
+  }
+  .unlock-potential {
+    margin-top: -4rem;
+    padding-bottom: 0rem;
+    box-sizing: border-box;
+  }
+  
+  
 }

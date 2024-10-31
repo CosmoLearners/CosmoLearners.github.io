@@ -399,13 +399,17 @@
 @media screen and (width <= 450px) {
   .launch-discount-join {
     font-size: var(--font-size-lgi);
-  }
+      }
 
   .check-out-our,
   .how-does-it,
   .par-stu-coach-heading {
     font-size: var(--font-size-7xl);
     line-height: 32px;
+  }
+
+  .how-does-it{
+    font-size: var(--font-size-3xl);
   }
 
   .coach-qualities-container {
@@ -418,5 +422,54 @@
     box-sizing: border-box;
   }
 
+  .qualities-of-our-container{
+    margin-right:3rem;
+    margin-bottom: -3rem;
   }
 
+  .launch-discount-join-us-today-wrapper {
+    align-self: stretch;
+    background: linear-gradient(90deg, #790000, #e00000 53.5%, #790000);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-base-5) var(--padding-xl);
+  }
+  .work {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl) var(--padding-29xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-25xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+    margin-top: -5rem;
+    margin-bottom: -3rem;
+  }
+  
+  .divchakra-stack2 {
+    width: 1068px;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    cursor: pointer;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-jetbrains-mono);
+    margin-left: -4rem;
+    padding-bottom: 1rem;
+  }
+.button2{
+  transform: scale(0.6);
+}
+.explore-a-wide {
+  font-size: var(--font-size-sm);
+  line-height: 28px;
+  }
+
+}

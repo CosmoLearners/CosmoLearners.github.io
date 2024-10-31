@@ -105,7 +105,29 @@
 
 @media screen and (width <= 450px) {
   .learn-more-about7 {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-3xl);
     line-height: 32px;
   }
+  .ready-to-be {
+    font-size: var(--font-size-sm);
+    line-height: 28px;
+  }  
+  .learn-more-about-cosmo3 {
+    gap: var(--gap-mid);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .learnmore-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 229px;
+    flex-direction: row;
+    justify-content: flex-start;
+    transform:scale(0.6) ;
+  }
+  
+
 }

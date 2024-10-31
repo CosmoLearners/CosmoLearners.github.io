@@ -303,6 +303,7 @@
 @media screen and (width<=450px){
 .coach-container{
   padding-left: 0.5rem;
+  padding-top: 2rem;
 }
 }
   
